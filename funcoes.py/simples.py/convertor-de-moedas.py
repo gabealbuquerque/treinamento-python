@@ -15,9 +15,9 @@ while True:
         euro = valor / 6.16
         print(f'O valor R$ {valor:.2f} convertido em euro, considerando a cota de 6.16 resultou em € {euro:.2f}.')
     opc2 = input('Gostaria de continuar? (S/N) ').upper()
-    if opc2 == 'N':
-        break
     while opc2 not in 'SN':
         print('ERRO! Digite apenas S ou N.')
         opc2 = input('Gostaria de continuar? (S/N) ').upper()
+    if opc2 == 'N':
+        break
 print('<< VOLTE SEMPRE! >>')
