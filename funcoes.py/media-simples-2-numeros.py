@@ -1,4 +1,9 @@
 def media(a, b):
+    """
+    funcao que calcula a media entre 2 valores
+    a: para o primeiro valor
+    b: para o segundo valor
+    """
     media = (a + b) / 2
     print(f'A media de {a} + {b} / 2 = {media}')
 
@@ -13,3 +18,4 @@ while True:
     if opc in 'N':
         break
 print('<< VOLTE SEMPRE! >>')
+
